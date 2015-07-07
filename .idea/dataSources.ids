@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - appgrub@localhost" uuid="beeee1fb-8c64-4a12-a5cd-e7c2738a1a91">
+    <database-info product="MySQL" version="5.6.21" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="appgrub"/>
+    <table name="app_has_filtered" schema="" catalog="appgrub" type="TABLE">
+      <column name="Id" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="PushId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" def="MA=="/>
+      <column name="AppId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" def="MA=="/>
+      <column name="SourceId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="AppName" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="MainCategory" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="IconUrl" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="AppUrl" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="QVBQ54is6Jmr6ZO+5o6l"/>
+      <column name="ScreenShoot" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="VideoUrl" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="QVBQ6KeG6aKR6ZO+5o6l"/>
+      <column name="MoveTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5LuOcHVzaOihqG51b+aMqui/h+adpeeahOaXtumXtA=="/>
+      <column name="OfficialWeb" sqlType="VARCHAR" precision="2048" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="MTrooajnpLrliJrku45wdXNoYmlhb+ihqOaLv+i/h+adpe+8mzA65bey57uP5YiwYXBwX2luZm9fbGlzdA=="/>
+      <column name="AppInfo" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="ApkUrl" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" remarks="YW5kcm9pZCDljIXkuIvovb3lnLDlnYA="/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <index name="Pushid" unique="false" columns="PushId"/>
+    </table>
+    <table name="app_info_list" schema="" catalog="appgrub" type="TABLE">
+      <column name="Id" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="PushId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" def="MA==" remarks="5YWz6IGUYXBwX3B1c2hfbGlzdC5JZA=="/>
+      <column name="AppId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" def="MA=="/>
+      <column name="SourceId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="AppName" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="MainCategory" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="CommitUserId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" def="MA=="/>
+      <column name="Remarks" sqlType="VARCHAR" precision="1024" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="IconUrl" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="AppUrl" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="QVBQ54is6Jmr6ZO+5o6l"/>
+      <column name="Up" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5o6S5bqP77ya5b6X5YiG"/>
+      <column name="Rank" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="CommentCount" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="ScreenShoot" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="VideoUrl" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="QVBQ6KeG6aKR6ZO+5o6l"/>
+      <column name="UpdateTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="CommitTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5YiG5Lqr5pe26Ze0"/>
+      <column name="OfficialWeb" sqlType="VARCHAR" precision="2048" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="MTrooajnpLrov5jmnInmipPlj5bmlbDmja7vvJs="/>
+      <column name="MostComment" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5o6S5bqP77ya54Ot6K6u"/>
+      <column name="FastUp" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5o6S5bqP77ya5LiK5Y2H5pyA5b+r"/>
+      <column name="Sort" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5o6S5bqP77ya5YWo6YOo"/>
+      <column name="AppInfo" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="ApkUrl" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" remarks="YW5kcm9pZCDljIXkuIvovb3lnLDlnYA="/>
+      <column name="ShareType" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="MDrnlKjmiLfliIbkuqvvvJsx77ya57O757uf5YiG5Lqr"/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <index name="AppId" unique="false" columns="AppId"/>
+      <index name="UpdateTime" unique="false" columns="UpdateTime"/>
+    </table>
+    <table name="app_push_list" schema="" catalog="appgrub" type="TABLE">
+      <column name="Id" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="AppId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" def="MA=="/>
+      <column name="SourceId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="AppName" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="MainCategory" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="IconUrl" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="AppUrl" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="QVBQ54is6Jmr6ZO+5o6l"/>
+      <column name="ScreenShoot" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="VideoUrl" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="QVBQ6KeG6aKR6ZO+5o6l"/>
+      <column name="UpdateTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="OfficialWeb" sqlType="VARCHAR" precision="2048" scale="0" nullable="false" jdbcType="12"/>
+      <column name="AppInfo" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="ApkName" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ApkUrl" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" remarks="YW5kcm9pZCBhcGsgZG93bmxvYWQgdXJs"/>
+      <column name="ProcessDate" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="Status" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12" def="JzAn"/>
+      <column name="FileSize" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <index name="AppId" unique="false" columns="AppId"/>
+      <index name="UpdateTime" unique="false" columns="UpdateTime"/>
+    </table>
+    <table name="app_push_list_detail" schema="" catalog="appgrub" type="TABLE">
+      <column name="Id" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="AppId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" def="MA=="/>
+      <column name="ApkName" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12"/>
+      <column name="DownLoadNum" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5LiL6L295pWw6YeP"/>
+      <column name="CommentNum" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="6K+E6K665pWw6YeP"/>
+      <column name="Date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="PushId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <index name="push_detail" unique="true" columns="AppId,ApkName,Date"/>
+    </table>
+    <table name="app_push_list_reviews" schema="" catalog="appgrub" type="TABLE">
+      <column name="Id" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="PushId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="Title" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="Content" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="UpdateTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="Status" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="54q25oCBIDA65q2j5bi4Oy0xOua4uOWuog=="/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <index name="PushId" unique="false" columns="PushId"/>
+    </table>
+    <table name="app_reviews" schema="" catalog="appgrub" type="TABLE">
+      <column name="Id" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="Pid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="AppId" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="AuthorId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="ToAuthorId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="6KKr6K+E6K665Lq6SWQ="/>
+      <column name="Content" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="UpdateTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="Status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="54q25oCBIDA65q2j5bi4Oy0xOuWIoOmZpA=="/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <index name="AppId" unique="false" columns="AppId"/>
+    </table>
+    <table name="category" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6Ieq5aKeSUQ=" autoIncrement="true"/>
+      <column name="Name" sqlType="VARCHAR" precision="48" scale="0" nullable="false" jdbcType="12" remarks="57G75Z6L5ZCN56ew"/>
+      <column name="AppType" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="MTrlupTnlKg7MjrmuLjmiI8="/>
+      <column name="Platform" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="aW9zOjE7YW5kcm9pZDoy"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="icon" schema="" catalog="appgrub" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="url" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="status" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="link" schema="" catalog="appgrub" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="url" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="picurl" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="domain" sqlType="VARCHAR" precision="33" scale="0" nullable="false" jdbcType="12" remarks="5Z+f5ZCN"/>
+      <column name="category" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="created" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="score" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="rank" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="comments" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6K+E6K665p2h5pWw"/>
+      <column name="thirdid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="log_api_request" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="opt_id" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" remarks="6K+35rGC5qCH6K+G"/>
+      <column name="request_time" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="request_type" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="data" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="log_api_response" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="opt_id" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" remarks="6K+35rGC5qCH6K+G"/>
+      <column name="userID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="response_time" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="response_type" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="JzAn"/>
+      <column name="data" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="log_receive_event" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="opt_id" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" remarks="6K+35rGC5qCH6K+G"/>
+      <column name="userID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="5a+55bqUdXNlci5JRA=="/>
+      <column name="type" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" remarks="5LqL5Lu257G75Z6L"/>
+      <column name="eventKey" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="5LqL5Lu25Zy65pmv5YC8"/>
+      <column name="createTime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93" remarks="5L+h5oGv5Yib5bu65pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="log_receive_event_menu" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="opt_id" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" remarks="6K+35rGC5qCH6K+G"/>
+      <column name="userID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="5a+55bqUdXNlci5JRA=="/>
+      <column name="type" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" remarks="5LqL5Lu257G75Z6L"/>
+      <column name="eventKey" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="5LqL5Lu25Zy65pmv5YC8"/>
+      <column name="createTime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93" remarks="5L+h5oGv5Yib5bu65pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="notice" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="6YCa55+l57G75Z6LIDDvvJog57O757uf5raI5oGv77yMMe+8mmFwcOiiq+ivhOiuuu+8jDLvvJrlm57lpI3vvIwz77ya6KKrQA=="/>
+      <column name="targetUserid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5pS25Yiw6YCa55+l55qE5Lq6SUQ="/>
+      <column name="msg" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <column name="createTime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="readFlag" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="MDrlt7Lor7sKMe+8muacquivuw=="/>
+      <column name="appId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="replierId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="reply" schema="" catalog="appgrub" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="content" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="pid" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="rank" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="created" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Zue5aSN5pe26Ze0"/>
+      <column name="score" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="comments" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5a2Q6K+E6K665p2h5pWw"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="report_user_active" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91" def="JzAwMDAtMDAtMDAn"/>
+      <column name="user_all" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="55So5oi35oC75pWw"/>
+      <column name="user_active" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5rS76LeD55So5oi35pWw"/>
+      <column name="user_new" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5paw5Yqg5YWl55So5oi3"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+      <index name="date" unique="false" columns="date"/>
+    </table>
+    <table name="source" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6Ieq5aKeSUQ=" autoIncrement="true"/>
+      <column name="Name" sqlType="VARCHAR" precision="48" scale="0" nullable="false" jdbcType="12" remarks="YXBw5p2l5rqQ"/>
+      <column name="Domains" sqlType="VARCHAR" precision="2048" scale="0" nullable="true" jdbcType="12" remarks="5YWB6K645Z+f5ZCN"/>
+      <column name="ChnName" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12" remarks="5Lit5paH5ZCN"/>
+      <column name="OS" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" remarks="5pON5L2c57O757uf"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="status" schema="" catalog="appgrub" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5o+Q5Lqk55So5oi355qEaWQ="/>
+      <column name="rank" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="url" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="category" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="score" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="created" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="up" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5pSv5oyB"/>
+      <column name="down" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Y+N5a+5"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="user" schema="" catalog="appgrub" type="TABLE">
+      <column name="ID" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6Ieq5aKeSUQ=" autoIncrement="true"/>
+      <column name="Account" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="55m76ZmG6LSm5Y+3"/>
+      <column name="unionid" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12" remarks="5b6u5L+h5ZSv5LiA5qCH6K+G"/>
+      <column name="UserName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="NickName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PassWord" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="Openid" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12" remarks="5b6u5L+hSUQ="/>
+      <column name="Email" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="RW1haWw="/>
+      <column name="Status" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="54q25oCBIDA65pyJ5pWIIDE65pyq5r+A5rS7IDI65peg5pWIIC0xOuiHquW7ug=="/>
+      <column name="CreateTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="Credit" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="56ev5YiG"/>
+      <column name="Icon" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5aS05YOP"/>
+      <column name="LastLoginTime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="user2" schema="" catalog="appgrub" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="33" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="33" scale="0" nullable="false" jdbcType="12"/>
+      <column name="credit" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="56ev5YiG"/>
+      <column name="created" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5rOo5YaM5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+  </data-source>
+</component>
