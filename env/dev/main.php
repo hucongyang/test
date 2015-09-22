@@ -65,7 +65,7 @@ return array(
             'connectionString' => 'mysql:host=localhost;dbname=appgrub',
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => '',
+            'password' => '111111',
             'charset' => 'utf8',
             'enableParamLogging' => true,
         ),
