@@ -53,7 +53,8 @@ return array(
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
             ),
         ),
-        
+        // yii 使用CURL扩展
+        // 引入
         'curl' =>array(
             'class' => 'application.extensions.curl.Curl',
         ),
@@ -69,11 +70,12 @@ return array(
             'charset' => 'utf8',
             'enableParamLogging' => true,
         ),
-        
+        // yii 中的错误及异常处理
         'errorHandler'=>array(
             // use 'site/error' action to display errors
             'errorAction'=>'error/error',
         ),
+        // yii 日志的处理机制以及扩展案例
      'log'=>array(
             'class'=>'CLogRouter',
             'routes'=>array(

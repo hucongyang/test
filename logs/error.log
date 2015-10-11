@@ -5402,3 +5402,37 @@ ORDER BY `DownLoadNum` DESC.
 2015/06/24 08:56:03 [error] [system]  error : F:\workspace\test\trunk\protected\components\WeixinApi.php:229:weixin api error
 2015/06/24 09:51:25 [error] [system.api.weixin] F:\workspace\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing
 2015/06/24 09:51:25 [error] [system]  error : F:\workspace\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/09/22 09:03:50 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [Nm5Y9a0443vr20]
+2015/09/22 09:03:51 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/09/22 09:05:00 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [mBjaSa0513vr22]
+2015/09/22 09:05:00 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/09/22 10:27:27 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [w0461vr21]
+2015/09/22 10:27:28 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/09/26 10:47:06 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [U0231vr22]
+2015/09/26 10:47:06 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/09/28 04:13:14 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [vRrRIa0396vr18]
+2015/09/28 04:13:14 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/08 05:35:01 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [Y8bSmA0301vr20]
+2015/10/08 05:35:01 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/08 05:35:05 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [6Jix0a0305vr23]
+2015/10/08 05:35:05 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/08 05:35:05 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [ZcFN6a0305vr19]
+2015/10/08 05:35:05 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/08 05:35:15 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [ZbUVta0315vr23]
+2015/10/08 05:35:15 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/08 05:35:23 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [ZqcAKA0323vr18]
+2015/10/08 05:35:23 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/09 04:31:40 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [YJuptA0902vr19]
+2015/10/09 04:31:40 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/10 02:55:30 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [nboPPa0533vr23]
+2015/10/10 02:55:30 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/10 02:57:53 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [7YJGjA0676vr21]
+2015/10/10 02:57:53 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/10 02:59:35 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [49zzMa0778vr19]
+2015/10/10 02:59:35 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/10 02:59:36 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [UZnMlA0779vr19]
+2015/10/10 02:59:36 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/10 03:17:29 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [jZBEYa0853vr18]
+2015/10/10 03:17:30 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/10 04:36:00 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [hPBUVa0563vr20]
+2015/10/10 04:36:00 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
