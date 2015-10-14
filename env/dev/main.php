@@ -38,7 +38,7 @@ return array(
     // application components
     'components'=>array(
         'user'=>array(
-              'class' => 'WebUser',
+              'class' => 'WebUser',             // trunk/protected/components/WebUser.php
               'stateKeyPrefix'=>'appgrub_',
             ),  
             
@@ -71,25 +71,28 @@ return array(
             'enableParamLogging' => true,
         ),
         // yii 中的错误及异常处理
+        // 配置文件中为errorHandler组件定义errorAction路由属性
         'errorHandler'=>array(
             // use 'site/error' action to display errors
             'errorAction'=>'error/error',
         ),
         // yii 日志的处理机制以及扩展案例
-     'log'=>array(
-            'class'=>'CLogRouter',
+        'log'=>array(
+            'class'=>'CLogRouter',                              // 日志路由管理器
             'routes'=>array(
                 array(
-                    'class'=>'CFileLogRoute',
-                    'logPath'=>CONFIG_LOGS_PATH,
-                    'levels'=>'error, warning, trace, profile, info',
-                    'categories'=>'system.*',   
+                        'class'=>'CFileLogRoute',               // 日志处理器
+                        'logPath'=>CONFIG_LOGS_PATH,            // 配置文件中设置的文件路径
+                        'levels'=>'error, warning, trace, profile, info',       // 指定级别的日志信息
+                        'categories'=>'system.*',
+                        'logFile' => 'system.log',              // 日志文件名称
                 ),
                 array(
                         'class'=>'CFileLogRoute',
                         'logPath'=>CONFIG_LOGS_PATH,
                         'levels'=>'error, warning, trace, profile, info',
                         'categories'=>'exception.*',
+                        'logFile' => 'exception.log',
                 ),
                 array(
                         'class'=>'CFileLogRoute',
@@ -119,7 +122,7 @@ return array(
 
         //配置redis缓存
         'cache'=>array(
-        'class'=>'ext.redis.CRedisCache',
+        'class'=>'ext.redis.CRedisCache',      // 对应 protected/extensions/redis/CredisCache.php
         'servers'=>array(
             array(
                     'host'=>'127.0.0.1',
@@ -127,11 +130,33 @@ return array(
                 ),
             ),
         ),
-        //配置PRedisCacheHttpSession
+        //配置PRedisCacheHttpSession (安装YII的会话redis插件) 注意：缓存和会话的database属性一定区分开，用不同的redis数据库来保存
 //         'session' => array(
 //             'class' => 'ext.PRedisCacheHttpSession.PRedisCacheHttpSession',
 //             'database' => 9, 
 //         ),
+
+        // yii对memcache提供直接支持,可以启用memcache服务端作为session服务器
+//        'cache' => array(
+//            'class' => 'CMemCache',
+//            'servers' => array(
+//                array(
+//                    'host' => '127.0.0.1',
+//                    'port' => 11211,
+//                ),
+//
+//                array(
+//                    'host' => '127.0.0.1',
+//                    'port' => 11211,
+//                ),
+//            ),
+//        ),
+//
+//        'session' => array(
+//            'class' => 'CCacheHttpSession',
+//            'cookieMode' => 'only',
+//            'timeout' => 1200
+//        ),
     ),
 
     // application-level parameters that can be accessed

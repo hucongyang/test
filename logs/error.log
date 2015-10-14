@@ -5436,3 +5436,58 @@ ORDER BY `DownLoadNum` DESC.
 2015/10/10 03:17:30 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
 2015/10/10 04:36:00 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [hPBUVa0563vr20]
 2015/10/10 04:36:00 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 03:11:55 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [oaXbha0321vr21]
+2015/10/12 03:11:55 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 03:12:26 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [6rKoSA0353vr22]
+2015/10/12 03:12:26 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 04:07:03 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [_slP60630vr20]
+2015/10/12 04:07:03 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 04:08:14 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [hKtXXa0700vr20]
+2015/10/12 04:08:14 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 04:10:40 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [0847vr20]
+2015/10/12 04:10:40 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 10:12:45 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [VYoYBa0571vr23]
+2015/10/12 10:12:45 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 10:21:56 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [cJfOZa0122vr18]
+2015/10/12 10:21:56 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 10:22:25 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [xiLopA0151vr22]
+2015/10/12 10:22:25 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 10:29:17 [error] [system.api.weixin] F:\test\trunk\protected\components\WeixinApi.php160 error : 41001access_token missing hint: [XIaojA0564vr20]
+2015/10/12 10:29:17 [error] [system]  error : F:\test\trunk\protected\components\WeixinApi.php:229:weixin api error
+2015/10/12 10:32:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.PusherId' in 'field list'. The SQL statement executed was: SELECT a.PushId, b.IconUrl, b.AppName, b.PusherId, d.Name as MainCategory, ifnull(b.FileSize, "") as FileSize, c.OS, b.ProcessDate, max(a.CommentNum) as CommentNum, max(a.DownLoadNum) as DownLoadNum
+FROM `app_push_list_detail` `a`
+JOIN `app_push_list` `b` ON a.PushId = b.Id
+JOIN `source` `c` ON b.SourceId = c.ID
+JOIN `category` `d` ON b.MainCategory = d.ID
+WHERE b.Status = 0
+GROUP BY `a`.`PushId`
+ORDER BY `DownLoadNum` DESC.
+2015/10/12 12:30:28 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CController.php:483:The system is unable to find the requested action "editcategory".
+2015/10/13 02:56:46 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CController.php:483:The system is unable to find the requested action "editcategory".
+2015/10/13 03:24:43 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/13 03:24:55 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 03:50:31 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 03:58:50 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 04:00:14 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 04:18:23 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 04:19:20 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 05:24:00 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 05:24:11 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 05:24:15 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 05:34:14 [error] [system]  error : F:\test\trunk\protected\modules\admin\controllers\AppController.php:274:评论内容为空！
+2015/10/14 05:34:23 [error] [system]  error : F:\test\trunk\protected\modules\admin\controllers\AppController.php:274:评论内容为空！hhh
+2015/10/14 05:34:25 [error] [system]  error : F:\test\trunk\protected\modules\admin\controllers\AppController.php:274:评论内容为空！hhh
+2015/10/14 06:32:29 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 06:34:21 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 06:34:40 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 06:36:25 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 06:37:43 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 06:40:50 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 06:57:30 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 07:02:39 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 07:03:04 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 07:03:52 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 07:04:40 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 07:47:55 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 07:48:39 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286:Unable to resolve the request "img/iosTiny.png".
+2015/10/14 13:26:03 [error] [system]  error : F:\yii\yii-1.1.7.r3135\framework\web\CController.php:483:The system is unable to find the requested action "editcategory".

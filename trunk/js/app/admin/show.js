@@ -61,16 +61,16 @@ $(document).ready(function() {
         },
         init: function() {
             var _self = this;
-            $('.icheck-radio').iCheck({
+            $('.icheck-radio').iCheck({                     // js调用按钮插件
                 checkboxClass: 'icheckbox_flat-blue',
                 radioClass: 'iradio_flat-blue'
             }).on('ifChecked', function(event) {
-                _self.conditions[$(this).attr('name')] = $(this).val();
+                _self.conditions[$(this).attr('name')] = $(this).val();    // $(this).attr('name') === $os/$order   $(this).val() === value值
             });
 
             $('#search').click(function() {
-                _self.request();
-            })
+                _self.request();                    // 查询按钮
+            });
 
             $("#delete").click(function() {
                 var id = [];
@@ -132,11 +132,10 @@ $(document).ready(function() {
                 }
             });
 
-
             _self.request();
 
         }
-    }
+    };
     filter_app.init();
 
 });

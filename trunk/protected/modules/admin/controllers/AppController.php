@@ -271,7 +271,7 @@ class AppController extends Controller {
             throw new THttpException('评论ID为空！');
         }
         if(!isset($_POST['content']) || $_POST['content'] === ''){
-            throw new THttpException('评论内容为空！');
+            throw new THttpException('评论内容为空！hhh');
         }
 
         $comment = AppPushListReviews::model()->findByPk($_POST['id']);

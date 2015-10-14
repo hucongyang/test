@@ -1,0 +1,402 @@
+2015/10/12 04:10:40 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:229
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(160): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 160)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/
+---
+2015/10/12 10:12:45 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:229
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(160): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 160)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/
+---
+2015/10/12 10:21:56 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:229
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(160): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 160)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/
+---
+2015/10/12 10:22:25 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:229
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(160): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 160)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/
+---
+2015/10/12 10:29:17 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:229
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(160): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 160)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/user/login
+---
+2015/10/12 10:32:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.PusherId' in 'field list'. The SQL statement executed was: SELECT a.PushId, b.IconUrl, b.AppName, b.PusherId, d.Name as MainCategory, ifnull(b.FileSize, "") as FileSize, c.OS, b.ProcessDate, max(a.CommentNum) as CommentNum, max(a.DownLoadNum) as DownLoadNum
+FROM `app_push_list_detail` `a`
+JOIN `app_push_list` `b` ON a.PushId = b.Id
+JOIN `source` `c` ON b.SourceId = c.ID
+JOIN `category` `d` ON b.MainCategory = d.ID
+WHERE b.Status = 0
+GROUP BY `a`.`PushId`
+ORDER BY `DownLoadNum` DESC' in F:\yii\yii-1.1.7.r3135\framework\db\CDbCommand.php:543
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 F:\test\trunk\protected\modules\admin\controllers\AppController.php(45): CDbCommand->queryAll()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): AppController->actionList()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('list')
+#10 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/app/list')
+#11 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 F:\test\trunk\index.php(37): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/app/list
+HTTP_REFERER=http://www.appgrub.test:8001/admin
+---
+2015/10/12 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editcategory".' in F:\yii\yii-1.1.7.r3135\framework\web\CController.php:483
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(270): CController->missingAction('editcategory')
+#1 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('editcategory')
+#2 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/app/editc...')
+#3 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\test\trunk\index.php(37): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/app/editcategory
+HTTP_REFERER=http://www.appgrub.test:8001/admin
+---
+2015/10/13 02:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editcategory".' in F:\yii\yii-1.1.7.r3135\framework\web\CController.php:483
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(270): CController->missingAction('editcategory')
+#1 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('editcategory')
+#2 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/app/editc...')
+#3 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\test\trunk\index.php(37): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/app/editcategory
+HTTP_REFERER=http://www.appgrub.test:8001/admin
+---
+2015/10/13 03:24:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/13 03:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 03:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 03:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 04:00:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 04:18:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 04:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 05:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 05:24:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 05:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 05:34:14 [error] [exception.THttpException.200] exception 'THttpException' with message '评论内容为空！' in F:\test\trunk\protected\modules\admin\controllers\AppController.php:274
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): AppController->actionEditComment()
+#1 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('editcomment')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/app/editc...')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/app/editcomment
+HTTP_REFERER=http://www.appgrub.test:8001/admin/app/detail?id=575
+---
+2015/10/14 05:34:23 [error] [exception.THttpException.200] exception 'THttpException' with message '评论内容为空！hhh' in F:\test\trunk\protected\modules\admin\controllers\AppController.php:274
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): AppController->actionEditComment()
+#1 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('editcomment')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/app/editc...')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/app/editcomment
+HTTP_REFERER=http://www.appgrub.test:8001/admin/app/detail?id=575
+---
+2015/10/14 05:34:25 [error] [exception.THttpException.200] exception 'THttpException' with message '评论内容为空！hhh' in F:\test\trunk\protected\modules\admin\controllers\AppController.php:274
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): AppController->actionEditComment()
+#1 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('editcomment')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/app/editc...')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/app/editcomment
+HTTP_REFERER=http://www.appgrub.test:8001/admin/app/detail?id=575
+---
+2015/10/14 06:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 06:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 06:34:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 06:36:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 06:37:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 06:40:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 06:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 07:02:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 07:03:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 07:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 07:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 07:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 07:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/iosTiny.png".' in F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('img/iosTiny.png')
+#1 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\test\trunk\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/iosTiny.png
+HTTP_REFERER=http://www.appgrub.test:8001/css/gh-buttons.css
+---
+2015/10/14 13:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editcategory".' in F:\yii\yii-1.1.7.r3135\framework\web\CController.php:483
+Stack trace:
+#0 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(270): CController->missingAction('editcategory')
+#1 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('editcategory')
+#2 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/app/editc...')
+#3 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\test\trunk\index.php(37): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/app/editcategory
+HTTP_REFERER=http://www.appgrub.test:8001/admin
+---
