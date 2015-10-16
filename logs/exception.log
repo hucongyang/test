@@ -400,3 +400,139 @@ Stack trace:
 REQUEST_URI=/admin/app/editcategory
 HTTP_REFERER=http://www.appgrub.test:8001/admin
 ---
+2015/10/15 02:54:43 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:229
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(160): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 160)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/
+---
+2015/10/15 03:16:57 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:227
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(158): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 158)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/user/login
+---
+2015/10/15 03:16:59 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:227
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(158): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 158)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/
+---
+2015/10/15 08:07:30 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:227
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(158): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 158)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/?search=%E5%B9%BF%E5%8F%91%E9%93%B6%E8%A1%8C
+---
+2015/10/15 08:07:40 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:227
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(158): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 158)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/app/index?category=0&type=&order=1
+---
+2015/10/15 08:07:52 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:227
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(158): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 158)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/produce/index/373
+---
+2015/10/15 08:08:03 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:227
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(158): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 158)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/produce/index/373
+---
+2015/10/15 08:08:15 [error] [exception.THttpException.200] exception 'THttpException' with message 'weixin api error' in F:\test\trunk\protected\components\WeixinApi.php:227
+Stack trace:
+#0 F:\test\trunk\protected\components\WeixinApi.php(158): WeixinApi::parseResponse(Object(Curl), 'F:\\test\\trunk\\p...', 158)
+#1 F:\test\trunk\protected\controllers\UserController.php(237): WeixinApi::getQrCode()
+#2 F:\yii\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(49): UserController->actionQrcode()
+#3 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\yii\yii-1.1.7.r3135\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\yii\yii-1.1.7.r3135\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(282): CController->run('qrcode')
+#8 F:\yii\yii-1.1.7.r3135\framework\web\CWebApplication.php(141): CWebApplication->runController('user/qrcode')
+#9 F:\yii\yii-1.1.7.r3135\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\test\trunk\index.php(37): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/qrcode
+HTTP_REFERER=http://www.appgrub.test:8001/user/login
+---

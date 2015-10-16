@@ -51,13 +51,14 @@ class WebUser extends CWebUser
         
         $this->lastLoginTime = $oUser->LastLoginTime;
 
-        $oUser->LastLoginTime = date('Y-m-d H:i', time());
+        $oUser->LastLoginTime = date('Y-m-d H:i', time());      // 更新最后登录时间
 
         $oUser->save();
 
 	}
 
-		
+	// getState 返回设置在用户session中的值
+    // setState 设置一个值在用户session中
 	public function getNjsid()
 	{
 	    return $this->getState('__njsid');
@@ -122,6 +123,7 @@ class WebUser extends CWebUser
         return $this->getState('__lastLoginTime');
     }
 	/**
+     * Redirects the user browser to the login page.
 	 * action performed when to access a specific page the login is required
 	 */
 	public function loginRequired()

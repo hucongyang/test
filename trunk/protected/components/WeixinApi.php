@@ -138,9 +138,7 @@ class WeixinApi{
     
         $request = Yii::app()->curl->run( $url );
         return WeixinApi::parseResponse($request, __FILE__, __LINE__);
-        ;
-    
-    
+
     }
     
     
